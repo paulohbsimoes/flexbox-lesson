@@ -21,7 +21,7 @@ header {
   align-items: center;
   min-width: 50px;
   min-height: 50px;
-  background-color: rgb(53, 47, 122);
+  background-color: rgb( 53 , 47 , 122 );
   margin: 5px;
   color: white;
   font-size: 30px;
@@ -60,6 +60,6 @@ header {
   padding-left: 10px;
 }
 
-.evenElementsBiggerFont:nth-child(even) {
+.evenElementsBiggerFont:nth-child( even ) {
   font-size: 60px;
 }

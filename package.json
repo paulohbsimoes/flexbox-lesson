@@ -1,0 +1,31 @@
+{
+  "name": "flexbox-summerjobs",
+  "version": "1.0.0",
+  "description": "## O que vamos aprender?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulohbsimoes/flexbox-summerjobs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulohbsimoes/flexbox-summerjobs/issues"
+  },
+  "homepage": "https://github.com/paulohbsimoes/flexbox-summerjobs#readme",
+  "dependencies": {
+    "eslint": "^7.14.0",
+    "stylelint": "^13.8.0"
+  },
+  "devDependencies": {
+    "airbnb": "0.0.2",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}

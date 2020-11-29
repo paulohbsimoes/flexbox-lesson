@@ -7,14 +7,14 @@ table {
   box-shadow: 0 0 5px black;
 }
 
-table td, th {
+table td , th {
   padding: 15px;
   width: 150px;
   text-align: center;
 }
 
 table th {
-  background-color: rgba(0, 0, 0, 0.856);
+  background-color: rgba( 0 , 0 , 0 , 0.856 );
   color: white;
   border: 1px solid white;
   font-family: monospace;
@@ -26,6 +26,6 @@ table td {
 }
 
 table thead th {
-  color: rgba(57, 105, 195, 0.418);
+  color: rgba( 57 , 105 , 195 , 0.418 );
   text-shadow: 0 0 1px white;
 }

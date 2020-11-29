@@ -35,16 +35,16 @@ p {
   position: absolute;
   top: 50%;
   background-color: blue;
-  transform: translateY(-50%);
+  transform: translateY( -50% );
 }
 
-#cross-axis::after {
-  content: "cross axis";
+#cross-axis:after {
+  content: 'cross axis';
   display: block;
   width: 100%;
   text-align: left;
   margin-left: 20px;
-  transform: translateY(-25px);
+  transform: translateY( -25px );
   color: blue;
 }
 
@@ -54,14 +54,14 @@ p {
   position: absolute;
   left: 50%;
   background-color: red;
-  transform: translateX(-50%);
+  transform: translateX( -50% );
 }
 
-#main-axis::after {
-  content: "main axis";
+#main-axis:after {
+  content: 'main axis';
   display: block;
   writing-mode: vertical-lr;
   margin: 10px 10px 10px -30px ;
-  transform: rotate(180deg);
+  transform: rotate( 180deg );
   color: red;
 }

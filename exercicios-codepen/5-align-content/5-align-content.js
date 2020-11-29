@@ -1,68 +1,68 @@
-import { createExercise, createExerciseFromList } from '../../libs/playground.js';
+import { createExerciseFromList } from '../../libs/playground.js';
 import { getColor } from '../../libs/utils.js';
 
 const app = document.querySelector('#app');
 
 const settings = [
   {
-    title: `1 - Em elementos que tenham as propriedades 'display: (flex | inline-flex)' e 'flex-wrap' diferente de 'nowrap' podemos utilizar 'align-content' para alinhar as linhas. Adicione-as, por padrão 'align-content' terá o valor de 'stretch'.` ,
+    title: '1 - Em elementos que tenham as propriedades \'display: (flex | inline-flex)\' e \'flex-wrap\' diferente de \'nowrap\' podemos utilizar \'align-content\' para alinhar as linhas. Adicione-as, por padrão \'align-content\' terá o valor de \'stretch\'.',
     numberOfItems: 8,
     itemSettings: {
-      'background-color': getColor()
+      'background-color': getColor(),
     },
     // defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\nalign-items: flex-start;\n'
   },
   {
-    title: `2 - Utilize a propriedade 'align-content' para alinhar as linhas no 'inicio' do 'cross axis'.`,
+    title: '2 - Utilize a propriedade \'align-content\' para alinhar as linhas no \'inicio\' do \'cross axis\'.',
     numberOfItems: 8,
     itemSettings: {
-      'background-color': getColor()
+      'background-color': getColor(),
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
   {
-    title: `3 - Utilize a propriedade 'align-content' para alinhar as linhas no 'final' do 'cross axis'.`,
+    title: '3 - Utilize a propriedade \'align-content\' para alinhar as linhas no \'final\' do \'cross axis\'.',
     numberOfItems: 8,
     itemSettings: {
-      'background-color': getColor()
+      'background-color': getColor(),
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
   {
-    title: `4 - Utilize a propriedade 'align-content' para alinhar as linhas no 'centro' do 'cross axis'.`,
+    title: '4 - Utilize a propriedade \'align-content\' para alinhar as linhas no \'centro\' do \'cross axis\'.',
     numberOfItems: 8,
     itemSettings: {
-      'background-color': getColor()
+      'background-color': getColor(),
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
   {
-    title: `5 - Utilize a propriedade 'align-content' para colocar espaços iguais entre as linhas em relação ao 'cross axis', sem espaços antes da primeira e depois da última.`,
+    title: '5 - Utilize a propriedade \'align-content\' para colocar espaços iguais entre as linhas em relação ao \'cross axis\', sem espaços antes da primeira e depois da última.',
     numberOfItems: 16,
     itemSettings: {
       'background-color': getColor(),
-      'height': '40px',
+      height: '40px',
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
   {
-    title: `6 - Utilize a propriedade 'align-content' para colocar espaços iguais entre as linhas em relação ao 'cross axis', porém o espaço antes da primeira e depois da última devem ser menores.`,
+    title: '6 - Utilize a propriedade \'align-content\' para colocar espaços iguais entre as linhas em relação ao \'cross axis\', porém o espaço antes da primeira e depois da última devem ser menores.',
     numberOfItems: 16,
     itemSettings: {
       'background-color': getColor(),
-      'height': '40px',
+      height: '40px',
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
   {
-    title: `7 - Utilize a propriedade 'align-content' para colocar espaços entre as linhas em relação ao 'cross axis', todos os espaços devem ser iguais.`,
+    title: '7 - Utilize a propriedade \'align-content\' para colocar espaços entre as linhas em relação ao \'cross axis\', todos os espaços devem ser iguais.',
     numberOfItems: 16,
     itemSettings: {
       'background-color': getColor(),
-      'height': '40px',
+      height: '40px',
     },
     defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\n',
   },
-]
+];
 
 createExerciseFromList(app, settings);

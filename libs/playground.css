@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-html, body {
+html , body {
   overflow-x: hidden;
   overflow-y: auto;
 }
 
 body {
   font-size: 24px;
-  font-family: Arial, sans-serif, monospace;
+  font-family: Arial , sans-serif , monospace;
 }
 
 header {
@@ -29,9 +29,9 @@ header {
   counter-reset: item;
 }
 
-.flex-item::before {
+.flex-item:before {
   counter-increment: item;
-  content: counter(item);
+  content: counter( item );
   color: white;
   text-align: center;
   display: inline-block;
@@ -69,7 +69,7 @@ header {
   margin: 20px;
   min-width: 700px;
   width: 700px;
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 2px rgba( 0 , 0 , 0 , 0.3 );
   border-radius: 8px;
 }
 
@@ -118,6 +118,6 @@ textarea:focus::placeholder {
   padding: 0 20px;
 }
 
-.biggerFontForEvenItems:nth-child(even) {
+.biggerFontForEvenItems:nth-child( even ) {
   font-size: 40px;
 }
