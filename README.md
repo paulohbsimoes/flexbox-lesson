@@ -60,7 +60,7 @@ Em um mundo em que temos diversos tipos de dispositivos, com variados tamanhos d
 
     Por padrão o **main axis** começa na extremidade esquerda do container e termina na extremidade direita e o **cross axis** começa na extremidade superior e termina na extremidade inferior. Para você lembrar mais facilmente, pode pensar que eles estão no fluxo da nossa escrita, o **main-axis** da esquerda pra direita e o **cross axis** de cima pra baixo. 
     
-    **OBS:** Você verá adiante que é possível mudar o sentido e direção padrões do **main axis** e consequentemente do **cross axis** utilizando a propriedade `flex-direction`.
+    **OBS:** Lembre-se que é possível mudar o sentido e direção padrões do **main axis** e consequentemente do **cross axis** utilizando a propriedade `flex-direction`.
 
   - **Qual o tamanho?**
 
@@ -98,10 +98,10 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   Abaixo uma tabela relacionando onde os elementos começam e terminam quando usamos as propriedades `justify-content`, `align-items` e `align-content` de acordo com o `flex-direction`:
 
-  - **left-to-right:** direcionado da esquerda para direita.
-  - **right-to-left:** direcionado da direita para esquerda.
-  - **top-to-bottom:** direcionado de cima para baixo.
-  - **bottom-to-top:** direcionado de baixo para cima.
+  - **left-to-right:** começa no lado esquerdo e termina no direito.
+  - **right-to-left:** começa no lado direito e termina no esquerdo.
+  - **top-to-bottom:** começa no lado de cima e termina no de baixo.
+  - **bottom-to-top:** começa no lado de baixo e termina no de cima.
 
   <p align="center">
     <img src="./imgs/directions-table.png">
@@ -177,7 +177,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <br/>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/ZEpEMmd) para entender o comportamento do `justify-content` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/WNGbGQE) para fazer os exercícios de fixação.
+  **Prática:** [**clique aqui**](https://codepen.io/paulohbsimoes/full/ZEpEMmd) para entender o comportamento do `justify-content` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/WNGbGQE) para fazer os exercícios de fixação.
 
 ---
 
@@ -207,7 +207,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
     <img width="200" src="./imgs/align-items-stretch.png">
   </p>
 
-  - **baseline:** Alinha de acordo com a baseline da fonte dos **Flex items**. (Esse valor ficará mais claro nos exemplos)
+  - **baseline:** Alinha de acordo com a baseline da fonte dos **Flex items**.
 
   <p align="center">
     <img width="200" src="./imgs/align-items-baseline.png">
@@ -219,7 +219,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
 ---
 
-- **align-content:** Esta propriedade só funcionará em **Flex containers** que tiverem a propriedade `flex-wrap` igual a `wrap` ou `wrap-reverse`. Quando temos múltiplas "linhas" utilizamos esta propriedade para posicioná-las e distribuir espaços livres em relação ao **cross axis**.
+- **align-content:** Esta propriedade só funcionará em **Flex containers** que tiverem a propriedade `flex-wrap` igual a `wrap` ou `wrap-reverse`. Quando temos múltiplas "linhas" utilizamos esta propriedade para posicioná-las ou distribuir o espaço livre em relação ao **cross axis**.
 
   - **flex-start:** Alinha linhas ao começo do **cross axis**.
 
@@ -239,10 +239,11 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
     <img width="200" src="./imgs/align-content-center.png">
   </p>
 
-  - **stretch:** Estica linhas para ocuparem todo o espaço do **cross axis**, por padrão o espaço será distribuido uniformemente. Note que no primeiro exemplo (à esquerda), os quadradros não preencheram toda a linha, isso porque quando aplicamos `stretch` na propriedade `align-content` estamos esticando a linha, e não os elementos que pertencem a ela. Se quisermos podemos aplicar o `stretch` também nos items, usando a propriedade `align-items`, como mostra o segundo exemplo.
+  - **stretch:** Estica linhas para ocuparem todo o espaço do **cross axis**, por padrão o espaço será distribuido uniformemente.
+  <!-- Note que no primeiro exemplo (à esquerda), os quadradros não preencheram toda a linha, isso porque quando aplicamos `stretch` na propriedade `align-content` estamos esticando a linha, e não os elementos que pertencem a ela. Se quisermos podemos aplicar o `stretch` também nos items, usando a propriedade `align-items`, como mostra o segundo exemplo. -->
 
   <p align="center">
-    <img width="245" src="./imgs/align-content-stretch.png">
+    <!-- <img width="245" src="./imgs/align-content-stretch.png"> -->
     <img width="200" src="./imgs/align-content-stretch-2.png">
   </p>
 
@@ -485,30 +486,30 @@ footer {
   text-align: center;
 }
 ```
+**Você poderá consultar uma referência completa das propriedades que aprendeu [clicando aqui](https://codepen.io/paulohbsimoes/full/GRjRWLQ).**
 
-1. Utilize o flexbox para alinhar as opções do menu lado a lado.
+**1.** Utilize o flexbox para alinhar as opções do menu lado a lado.
 
-2. Faça com que as opções e o campo de pesquisa fiquem na mesma linha.
+**2.** Faça com que as opções e o campo de pesquisa fiquem na mesma linha.
 
-3. As opções e o campo de pesquisa devem ficar no centro do nav.
+**3.** As opções e o campo de pesquisa devem ficar no centro do nav.
 
-4. Ao redimensionar a página, quando o espaço do nav não couber o campo e as opções, deverá haver uma quebra de linha.
+**4.** Ao redimensionar a página, quando o espaço do nav não couber o campo e as opções, deverá haver uma quebra de linha.
 
-5. Centralize a lupa do campo de pesquisa para que ela fique exatamente no centro do quadrado.
+**5.** Centralize a lupa do campo de pesquisa para que ela fique exatamente no centro do quadrado.
 
-6. Faça com que as seções do article fiquem lado a lado.
+**6.** Faça com que as seções do article fiquem lado a lado.
 
-7. Distribua o espaço horizontal livre do article igualmente entre as seções.
+**7.** Distribua o espaço horizontal livre do article igualmente entre as seções.
 
-8. Caso a página seja redimensionada e o espaço seja insuficiente para caber as seções, deverá haver quebra de linha.
+**8.** Caso a página seja redimensionada e o espaço seja insuficiente para caber as seções, deverá haver quebra de linha.
 
-9. Alinhe o conteúdo das seções ao centro horizontal.
-- **Dica:** O valor padrão para `flex-direction` é `row` e para `align-items` é `stretch`.
+**9.** Alinhe o conteúdo das seções ao centro horizontal. **Dica:** o valor padrão para `flex-direction` é `row` e para `align-items` é `stretch`.
 
-10. Use o flexbox para colocar um espaçamento vertical entre o título e a lista de links do aside.
+**10.** Use o flexbox para colocar um espaçamento vertical entre o título e a lista de links do aside.
 O espaço acima do título e abaixo da lista deverá ser menor que o espaço entre o título e a lista.
 
-11. Faça com que o aside fique do lado direito do main utilizando apenas o flexbox.
+**11.** Faça com que o aside fique do lado direito do main utilizando apenas o flexbox.
 
 ## Recursos Adicionais (opicional)
 
