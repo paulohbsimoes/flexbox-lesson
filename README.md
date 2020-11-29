@@ -2,12 +2,12 @@
 
 ## O que vamos aprender?
 
-Você irá aprender como utilizar o módulo Flexbox para criar layouts de uma maneira mais eficiente. Verá como funcionam os eixos do flexbox e quais propriedades utilizamos para posicionar os items verticalmente e horizontalmente. Também irá aprender como adicionar quebras de linhas e a ajustar o posicionamento das linhas em contêineres com vários items.
+Você irá aprender como utilizar o módulo Flexbox para criar layouts de uma maneira mais eficiente. Verá como funcionam os eixos do flexbox e quais propriedades utilizamos para posicionar os items verticalmente e horizontalmente. Também irá aprender como adicionar quebras de linhas e a ajustar o posicionamento delas em conteiners com vários items.
 
 ## Você será capaz de:
 
-- Explicar o que é um **flexbox container** e o que é um **flexbox item**.
-- Explicar como os eixos do layout flexbox se comportam.
+- Entender o que é um **flexbox container** e o que é um **flexbox item**.
+- Entender como os eixos do layout flexbox se comportam.
 - Posicionar **flexbox items** dentro de **flexbox containers**.
 - Mudar o sentido e direção que os items são dispostos dentro do **flex container**.
 - Impedir que itens "vazem" o **flex container** e configurar como as linhas são quebradas.
@@ -107,7 +107,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
     <img src="./imgs/directions-table.png">
   </p>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/YzGzOvN) para entender o comportamento do `flex-direction` e em seguida faça os [**exercícios de fixação**](https://codepen.io/paulohbsimoes/full/XWjJjbx).
+  **Prática:** [**clique aqui**](https://codepen.io/paulohbsimoes/full/YzGzOvN) para entender o comportamento da `flex-direction` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/XWjJjbx) para fazer os exercícios de fixação.
 
 ---
 
@@ -133,7 +133,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <br/>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/dypyqgO) para entender o comportamento do `flex-wrap` e em seguida faça os [**exercícios de fixação**](https://codepen.io/paulohbsimoes/full/LYRERVK).
+  **Prática:** [**clique aqui**](https://codepen.io/paulohbsimoes/full/dypyqgO) para entender o comportamento do `flex-wrap` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/LYRERVK) para fazer os exercícios de fixação.
 
 ---
 
@@ -177,7 +177,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <br/>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/ZEpEMmd) para entender o comportamento do `justify-content` e em seguida faça os [**exercícios de fixação**](https://codepen.io/paulohbsimoes/full/WNGbGQE).
+  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/ZEpEMmd) para entender o comportamento do `justify-content` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/WNGbGQE) para fazer os exercícios de fixação.
 
 ---
 
@@ -215,7 +215,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <br/>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/abmbaMv) para entender o comportamento do `align-items` e em seguida faça os [**exercícios de fixação**](https://codepen.io/paulohbsimoes/full/LYRERpw).
+  **Prática:** [**clique aqui**](https://codepen.io/paulohbsimoes/full/abmbaMv) para entender o comportamento do `align-items` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/LYRERpw) exercícios de fixação.
 
 ---
 
@@ -242,7 +242,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
   - **stretch:** Estica linhas para ocuparem todo o espaço do **cross axis**, por padrão o espaço será distribuido uniformemente. Note que no primeiro exemplo (à esquerda), os quadradros não preencheram toda a linha, isso porque quando aplicamos `stretch` na propriedade `align-content` estamos esticando a linha, e não os elementos que pertencem a ela. Se quisermos podemos aplicar o `stretch` também nos items, usando a propriedade `align-items`, como mostra o segundo exemplo.
 
   <p align="center">
-    <img width="200" src="./imgs/align-content-stretch.png">
+    <img width="245" src="./imgs/align-content-stretch.png">
     <img width="200" src="./imgs/align-content-stretch-2.png">
   </p>
 
@@ -266,7 +266,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <br/>
 
-  **Prática:** utilize [**este playground**](https://codepen.io/paulohbsimoes/full/xxExaNV) para entender o comportamento do `align-content` e em seguida faça os [**exercícios de fixação**](https://codepen.io/paulohbsimoes/full/yLayaej).
+  **Prática:** [**clique aqui**](https://codepen.io/paulohbsimoes/full/xxExaNV) para entender o comportamento do `align-content` e em seguida [**clique aqui**](https://codepen.io/paulohbsimoes/full/yLayaej) para fazer os exercícios de fixação.
 
 ## Exercícios
 

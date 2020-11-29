@@ -23,7 +23,7 @@ nav {
 }
 ```
 
-4 - Ao redimensionar a página quando o espaço do nav não couber o campo e as opções deverá haver uma quebra de linha.
+4 - Ao redimensionar a página quando o espaço do nav não couber o campo e as opções, deverá haver uma quebra de linha.
 
 ```css
 nav {
