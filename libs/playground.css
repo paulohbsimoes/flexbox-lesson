@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  font-size: 24px;
+  font-family: Arial, sans-serif, monospace;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container {
+  counter-reset: item;
+}
+
+.flex-item::before {
+  counter-increment: item;
+  content: counter(item);
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.playground {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.playground h2 {
+  margin-bottom: 10px;
+}
+
+.playground form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 300px;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
+
+.exercise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  min-width: 700px;
+  width: 700px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.exercise .playground-header {
+  max-width: 600px;
+  font-size: 22px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.exercise form {
+  height: 300px;
+  align-self: flex-start;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.exercise textarea {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 22px;
+  resize: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-left: auto;
+}
+
+textarea::placeholder {
+  opacity: 0.6;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+.playground-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.biggerFontForEvenItems:nth-child(even) {
+  font-size: 40px;
+}

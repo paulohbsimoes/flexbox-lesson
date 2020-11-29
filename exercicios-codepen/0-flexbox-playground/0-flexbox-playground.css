@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: rgb(53, 47, 122);
+  margin: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.playground {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.playground h2 {
+  margin-bottom: 10px;
+}
+
+.playground form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 300px;
+  height: 100px;
+  align-content: center;
+  justify-content: center;
+}
+
+.playground .input-group {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.playground .input-group label {
+  padding-left: 10px;
+}
+
+.evenElementsBiggerFont:nth-child(even) {
+  font-size: 60px;
+}

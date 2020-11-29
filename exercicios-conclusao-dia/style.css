@@ -1,0 +1,180 @@
+/* BASE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba( 0 , 0 , 0 , 0.8 );
+  color: white;
+}
+
+header .title {
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb( 110 , 28 , 110 );
+  color: white;
+  padding: 10px;
+}
+
+nav ul li {
+  min-width: 110px;
+  padding: 10px 20px;
+}
+
+nav ul li:hover {
+  color: orangered;
+  cursor: pointer;
+  transform: scale( 1.2 );
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  height: 100%;
+  padding: 6px;
+}
+
+.search .icon {
+  background-color: rgba( 255 , 255 , 255 , 0.3 );
+  padding: 5px 10px;
+}
+
+.search .icon:hover {
+  cursor: pointer;
+}
+
+main {
+  background-color: rgba( 221 , 136 , 107 , 0.342 );
+  min-height: 80vh;
+}
+
+article {
+  background-color: rgba( 0 , 0 , 0 , 0.1 );
+  flex: 1;
+}
+
+section {
+  max-width: 600px;
+  padding: 20px;
+}
+
+section .title , section p {
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: rgb( 78 , 92 , 50 );
+  border-radius: 10px;
+  color: white;
+  height: 700px;
+  margin: 10px;
+  min-width: 350px;
+}
+
+aside .title {
+  padding: 10px;
+  text-align: center;
+}
+
+aside a {
+  color: white;
+}
+
+aside ul {
+  line-height: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+aside ul li:hover {
+  background-color: rgba( 0 , 0 , 0 , 0.3 );
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgba( 0 , 0 , 0 , 0.8 );
+  color: white;
+  font-size: 1.6rem;
+  padding: 20px;
+  text-align: center;
+}
+
+/* RESPOSTAS */
+
+nav ul {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search .icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+}
