@@ -137,7 +137,7 @@ const settings = [
     flexProperty: 'align-items',
     properyValues: ['flex-start', 'flex-end', 'center', 'stretch', 'baseline'],
     defaultValue: 'stretch',
-    numberOfItems: 8,
+    numberOfItems: 5,
     itemsDefaultClasses: ['evenElementsBiggerFont'],
   },
   {
