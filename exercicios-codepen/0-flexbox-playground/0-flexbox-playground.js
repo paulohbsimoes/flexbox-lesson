@@ -121,7 +121,7 @@ const settings = [
     defaultValue: 'wrap',
     numberOfItems: 10,
     containerSettings: {
-      'align-items': 'flex-start',
+      'align-items': 'stretch',
     },
   },
   {
