@@ -10,7 +10,7 @@ const settings = [
     itemSettings: {
       'background-color': getColor(),
     },
-    defaultAnswerValue: 'display: flex;\n '
+    defaultAnswerValue: 'display: flex;\n'
   },
   {
     title: '2 - Utilize a propriedade \'align-content\' para alinhar as linhas no \'inicio\' do \'cross axis\'.',
