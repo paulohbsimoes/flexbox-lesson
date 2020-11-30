@@ -1,4 +1,4 @@
-# Gabaritos - Exercícios Codepen
+# Gabarito - Exercícios Codepen
 
 ## 1 - flex-direction
 
@@ -39,6 +39,7 @@ flex-wrap: wrap;
 display: flex;
 flex-wrap: wrap-reverse;
 ```
+
 ## 3 - justify-content
 
 ### Exercício 1

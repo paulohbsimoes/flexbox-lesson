@@ -1,4 +1,4 @@
-# Gabaritos - Exercícios Codepen
+# Gabarito - Exercícios Codepen
 
 ## 1 - flex-direction
 
@@ -39,6 +39,7 @@ flex-wrap: wrap;
 display: flex;
 flex-wrap: wrap-reverse;
 ```
+
 ## 3 - justify-content
 
 ### Exercício 1
@@ -184,7 +185,7 @@ nav {
 }
 ```
 
-## 4 - Ao redimensionar a página quando o espaço do nav não couber o campo e as opções, deverá haver uma quebra de linha.
+## 4 - Ao redimensionar a página, quando o espaço do nav não couber o campo e as opções, deverá haver uma quebra de linha.
 
 ```css
 nav {
@@ -194,7 +195,7 @@ nav {
 }
 ```
 
-## 5 - Centralize a lupa do campo de pesquisa para que fique exatamente no centro do quadrado.
+## 5 - Centralize a lupa do campo de pesquisa para que ela fique exatamente no centro do quadrado.
 
 ```css
 .search .icon {
@@ -212,7 +213,7 @@ article {
 }
 ```
 
-## 7 - Distribua o espaço livre igualmente entre as seções.
+## 7 - Distribua o espaço horizontal livre do article igualmente entre as seções.
 
 ```css
 article {
@@ -221,7 +222,7 @@ article {
 }
 ```
 
-## 8 - Caso a página seja redimensionada e o espaço seja insuficiente deverá haver quebra de linha nas seções.
+## 8 - Caso a página seja redimensionada e o espaço seja insuficiente para caber as seções, deverá haver quebra de linha.
 
 ```css
 article {
@@ -231,8 +232,7 @@ article {
 }
 ```
 
-## 9 - Alinhe o conteúdo das seções ao centro horizontal.
-Dica: O valor padrão para 'flex-direction' é 'row' e para 'align-items' é 'stretch'.
+## 9 - Alinhe o conteúdo das seções ao centro horizontal. **Dica:** o valor padrão para `flex-direction` é `row` e para `align-items` é `stretch`.
 
 ```css
 section {
@@ -242,7 +242,7 @@ section {
 }
 ```
 
-## 10 - Use o flexbox para colocar um espaçamento vertical entre o título e os links do aside. O espaço acima do título e abaixo da lista de links deverá ser menor que o espaço entre eles.
+## 10 - Use o flexbox para colocar um espaçamento vertical entre o título e a lista de links do aside. O espaço acima do título e abaixo da lista deverá ser menor que o espaço entre o título e a lista.
 
 ```css
 aside {
