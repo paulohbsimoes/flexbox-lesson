@@ -60,11 +60,11 @@ Em um mundo em que temos diversos tipos de dispositivos, com variados tamanhos d
 
     Por padrão o **main axis** começa na extremidade esquerda do container e termina na extremidade direita e o **cross axis** começa na extremidade superior e termina na extremidade inferior. Para você lembrar mais facilmente, pode pensar que eles estão no fluxo da nossa escrita, o **main-axis** da esquerda pra direita e o **cross axis** de cima pra baixo. 
     
-    **OBS:** Lembre-se que é possível mudar o sentido e direção padrões do **main axis** e consequentemente do **cross axis** utilizando a propriedade `flex-direction`.
+    **OBS:** Lembre-se que é possível mudar o sentido e direção do **main axis** e consequentemente do **cross axis** utilizando a propriedade `flex-direction`.
 
   - **Qual o tamanho?**
 
-    O tamanho dos eixos será dado de acordo com o `width` e o `height` do seu container. Se o **main axis** estiver na direção horizontal, ele ocupará a largura do elemento, caso esteja na vertical, ocupará a altura. O mesmo é valido para o **cross axis**.
+    O tamanho dos eixos será dado de acordo com o `width` e o `height` do container. Se o **main axis** estiver na direção horizontal, ele ocupará a largura do elemento, caso esteja na vertical, ocupará a altura. O mesmo é valido para o **cross axis**.
 
 ### Parte 2 - Flex Container
 
@@ -111,9 +111,9 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
 ---
 
-- **flex-wrap:** Quando se tem diversos elementos dentro de um container e o espaço é insuficiente para cabê-los, eles irão "vazar" para fora do container, pois por padrão essa propriedade tem o valor `nowrap`, mas podemos alterar este comportamento para fazer "quebras de linha", como você verá a seguir.
+- **flex-wrap:** Quando se tem diversos elementos dentro de um container e o espaço é insuficiente para cabê-los, eles irão "vazar". O motivo é que por padrão essa propriedade tem o valor `nowrap`, mas podemos alterar este comportamento para fazer "quebras de linha", como você verá a seguir.
 
-  - **nowrap (default):** Comportamento padrão, os elementos "vazam", porém, não irão atrapalhar o posicionamento do elementos que estão fora do **Flex container**, e se quisermos podemos usar a propriedade `overflow: hidden` para esconder os elementos "vazados".
+  - **nowrap (default):** Comportamento padrão, os elementos "vazam", porém, não irão atrapalhar o posicionamento do elementos que estão fora do **Flex container**, e se quisermos podemos usar a propriedade `overflow: hidden` para escondê-los.
 
   <p align="center">
     <img width="300" src="./imgs/flex-wrap-nowrap.png">
@@ -139,7 +139,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
 - **justify-content:** Esta propriedade é utilizada para alinhar os **Flex items** em relação ao **main axis**.
 
-  - **flex-start:** Alinha ao começo do **main axis**.
+  - **flex-start (default):** Alinha ao começo do **main axis**.
 
   <p align="center">
     <img width="200" src="./imgs/justify-content-flex-start.png">
@@ -163,7 +163,7 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
     <img width="200" src="./imgs/justify-content-space-between.png">
   </p>
 
-  - **space-around:** Distribui o espaço livre do **main axis** igualmente para criar margens de mesmo valor nos elementos. O efeito prático é que nos pontos em que uma margem encontra com outra os espaços são maiores, o primeiro elemento terá um espaçamento menor à esquerda e o último terá um espaçamento menor a direita.
+  - **space-around:** Distribui o espaço livre do **main axis** para criar margens de mesmo valor nos **flex items**. O efeito é que nos pontos em que uma margem encontra com outra os espaços são maiores, o primeiro elemento terá um espaçamento menor à esquerda e o último terá um espaçamento menor a direita.
 
   <p align="center">
     <img width="200" src="./imgs/justify-content-space-around.png">
@@ -183,6 +183,12 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
 - **align-items:** Esta propriedade é utilizada para alinhar os **Flex items** em relação ao **cross axis**.
 
+  - **stretch (default):** "Estica" os **Flex items** para ocuparem todo o espaço do **cross axis**
+
+  <p align="center">
+    <img width="200" src="./imgs/align-items-stretch.png">
+  </p>
+
   - **flex-start:** Alinha ao começo do **cross axis**.
 
   <p align="center">
@@ -199,12 +205,6 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
   <p align="center">
     <img width="200" src="./imgs/align-items-center.png">
-  </p>
-
-  - **stretch:** "Estica" os **Flex items** para ocuparem todo o espaço do **cross axis**
-
-  <p align="center">
-    <img width="200" src="./imgs/align-items-stretch.png">
   </p>
 
   - **baseline:** Alinha de acordo com a baseline da fonte dos **Flex items**.
@@ -271,15 +271,15 @@ Acima você aprendeu o funcionamento do layout no flexbox, agora você verá as 
 
 ## Exercícios
 
-Agora que você entendeu como o flexbox layout funciona e como posicionar flex items dentro de um flex container, chegou a hora de aplicar esses conhecimentos na construção de um layout. Ao finalizá-lo, ele terá o seguinte aspecto:
+Agora que você entendeu como o **flexbox layout** funciona e como posicionar **flex items** dentro de um **flex container**, chegou a hora de aplicar esses conhecimentos na construção de um layout. Ao finalizá-lo, ele terá o seguinte aspecto:
 
 <p>
   <img src="./imgs/exercicio_concluido.png">
 </p>
 
-Crie uma nova branch dentro do seu repositório de exercícios. Os arquivos gerados durante os exercícios deverão ser salvos em uma pasta, você também deverá fazer um commit a cada tarefa e ao final criar uma Pull Request para que os seus colegas possam fazer code-review.
+Crie uma nova branch dentro do seu repositório de exercícios. Os arquivos gerados deverão ser salvos em uma pasta, você também deverá fazer um commit ao final de cada tarefa e ao concluir os exercícios criar uma Pull Request para que os seus colegas possam fazer code-review.
 
-Para este exercício você irá utilizar os seguintes arquivos como base:
+Você deverá utilizar os seguintes arquivos como base:
 
 - **index.html**
 
@@ -486,7 +486,7 @@ footer {
   text-align: center;
 }
 ```
-**Você poderá consultar uma referência completa das propriedades que aprendeu [clicando aqui](https://codepen.io/paulohbsimoes/full/GRjRWLQ).**
+**[Clique aqui](https://codepen.io/paulohbsimoes/full/GRjRWLQ) para acessar um playground com referências de tudo que você aprendeu.**
 
 **1.** Utilize o flexbox para alinhar as opções do menu lado a lado.
 
@@ -506,8 +506,7 @@ footer {
 
 **9.** Alinhe o conteúdo das seções ao centro horizontal. **Dica:** o valor padrão para `flex-direction` é `row` e para `align-items` é `stretch`.
 
-**10.** Use o flexbox para colocar um espaçamento vertical entre o título e a lista de links do aside.
-O espaço acima do título e abaixo da lista deverá ser menor que o espaço entre o título e a lista.
+**10.** Use o flexbox para colocar um espaçamento vertical entre o título e a lista de links do aside. O espaço acima do título e abaixo da lista deverá ser menor que o espaço entre o título e a lista.
 
 **11.** Faça com que o aside fique do lado direito do main utilizando apenas o flexbox.
 

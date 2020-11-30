@@ -5,12 +5,12 @@ const app = document.querySelector('#app');
 
 const settings = [
   {
-    title: '1 - Em elementos que tenham as propriedades \'display: (flex | inline-flex)\' e \'flex-wrap\' diferente de \'nowrap\' podemos utilizar \'align-content\' para alinhar as linhas. Adicione-as, por padrão \'align-content\' terá o valor de \'stretch\'.',
+    title: '1 - Em \'flex containers\' que tenham a propriedade \'flex-wrap\' diferente de \'nowrap\' podemos utilizar \'align-content\' para alinhar as linhas. Adicione-a, por padrão \'align-content\' terá o valor de \'stretch\'.',
     numberOfItems: 8,
     itemSettings: {
       'background-color': getColor(),
     },
-    // defaultAnswerValue: 'display: flex;\nflex-wrap: wrap;\nalign-items: flex-start;\n'
+    defaultAnswerValue: 'display: flex;\n '
   },
   {
     title: '2 - Utilize a propriedade \'align-content\' para alinhar as linhas no \'inicio\' do \'cross axis\'.',
